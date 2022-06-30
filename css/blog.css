@@ -23,9 +23,13 @@
 
 .botoes_blog {
     width: 150px;
-    padding: 5px;
+    padding: 8px;
     position: relative;
     
+}
+
+.botoes_blog .gradient-btn{
+    margin-bottom: 30px;
 }
 
 .botoes_blog span {
@@ -65,7 +69,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-left: -18px;
+    margin-left: -10px;
 }
 
 .fa-brands {
@@ -150,11 +154,68 @@
     margin: 0;
     text-align: left;
     list-style-type: none;
+    border: #2a3e58;
     
 }
 
+.posts li{
+    border-width: medium;
+    border-style: solid;
+    border-color: #2a3e58;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+}
+
+.posts li a h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.posts li a p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #2a3e58;
+
+}
+
+.gradient-btn2 {
+    margin: 0 980px;
+    transition: 0.5s;
+    background-size: 200% auto;  
+    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ff44e2 0%, #348AC7 51%, #ff44e2 100%);
+    border: 3px solid #2a3e58;
+    height: 15px;
+    width: 150px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+
+}
+.gradient-btn2:hover{
+    background-position: right center;
+}
+
+.gradient-btn2 span{
+    color: #FFF;
+}
+
+h2 {
+    font-size: 30px;
+    color: #348AC7;
+    margin-bottom: 20px;
+}
+
 .posts h2:hover {
-    color: #ca5139;
+    color: #ff44e2;
     transition: 0.5s;
 }
 
@@ -181,8 +242,9 @@ a{
     text-decoration: none;    
 }
 
-.titulo {
+.titulo p {
     color: #333;
+    font-size:20px;
 }
 
 .meta{
@@ -199,43 +261,16 @@ a{
     font-size: .85rem;
 }
 
-
-.tag1 {
-    color: #fff;
-    background-color: #ca5139;
-    padding: 2px 4px 0px 4px;
-    border-radius: 5px;
-}
-
-.tag2 {
-    color: #fff;
-    background-color: #ca5139;
-    padding: 2px 4px 0px 4px;
-    border-radius: 5px;
-}
-
-.tag3 {
-    color: #fff;
-    background-color: #ca5139;
-    padding: 2px 4px 0px 4px;
-    border-radius: 5px;
-}
-
-.tag4 {
-    color: #fff;
-    background-color: #ca5139;
-    padding: 2px 4px 0px 4px;
-    border-radius: 5px;
-}
-
 .pagination {
-    margin: 0 0 2.5rem;
+    padding-top: 60px;
+    margin: 10px auto;
 }
+
 
 .index{
     margin-right: 1rem;
     margin-left: 1rem;
-    font-size: 0.78rem;
+    font-size: 20px;
     color: #999;
     padding: 5px;
 }
@@ -244,36 +279,39 @@ a{
     font-weight: 800;
     text-shadow: none;
     letter-spacing: 1px;
-    border: 1px solid #ca5139;
+    border: 2px solid #348AC7;
     border-radius: 20px;
-    padding: 5px;
+    padding: 6px 20px 6px 20px;
     color:#333;
     transition: 0.2s ease-in;
+    font-size: 20px;
 }
 
 .old__btn:hover {
-    background-color:#ca5139;
+    background-color:#348AC7;
     color:#fff;
 }
 
 .divider__final {
-    width: 60%;
-    margin: 1.7rem 0;
-    border-top: 2px dotted #89898d;
+    width: 100%;
+    margin: 3.7rem 0 1em auto;
+    border-top: 3px solid #2a3e58;
+
 }
 
 .copyright {
     font: inherit;
     font-size: 20px;
-    display: block;
-    padding: 5% 0 5% 0;
-    color: #999;
+    padding: 1% 0 5% 0;
+    color: #ff44e2;
+    display: flex;
+    justify-content: right;
 }
 
 .nome {
-    color:#333
+    color:#ff44e2;
 }
 
 .nome:hover {
-    color:#ca5139;
+    color:#348AC7;
 }
