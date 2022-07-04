@@ -89,7 +89,7 @@
 .fa-linkedin-in{
     background-color: #2a3e58;
     border-radius: 50%;
-    margin-left: 88px;
+    margin-left: 54px;
 }
 
 .fa-tiktok{
@@ -100,7 +100,7 @@
 .fa-whatsapp{
     background-color: #2a3e58;
     border-radius: 50%;
-    margin-right: 59px;
+    margin-right: 50px;
 }
 
 /* barra lateral fixa */
@@ -171,7 +171,7 @@
 .posts li a h2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .posts li a p{
