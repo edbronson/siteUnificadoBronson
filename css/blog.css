@@ -306,10 +306,12 @@ a{
     color: #ff44e2;
     display: flex;
     justify-content: right;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .nome {
     color:#ff44e2;
+    
 }
 
 .nome:hover {
