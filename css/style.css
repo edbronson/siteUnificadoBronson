@@ -28,8 +28,7 @@ body {
 
 .gradient-button {
     margin: 10px;
-    font-size: 20px;
-    padding: 5px;
+    padding: 7px 20px 6px 20px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
@@ -44,6 +43,9 @@ body {
     background-image: linear-gradient(to right, #ff44e2 0%, #348AC7 51%, #ff44e2 100%);
     border: 3px solid #2a3e58;
     text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
     
     
 }

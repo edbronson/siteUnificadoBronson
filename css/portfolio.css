@@ -80,14 +80,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 30px 0 30px;
+    margin: 60px 30px 0 30px;
+    cursor: pointer;
     
 }
 
 .box_front {
     border: 3px solid #2a3e58;
     border-radius: 10px;
-    padding: 10px
+    padding: 10px;
+    transition: 0.2s ease-in;
+}
+
+.box_front:hover{
+    background-image: url("../img/base.png");
+    
+}
+
+.box_front img {
+    border-radius: 10px;
 }
 
 .box_front h3 {
@@ -95,7 +106,12 @@
     margin-top: 10px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 1px;
-    color: #348AC7;
+    color: #2a3e58;
+}
+
+.box_front:hover h3{
+    color: #FFF
+    
 }
 
 .btn-front{
@@ -116,7 +132,6 @@
     border: 2px solid #348AC7;
     border-radius: 20px;
     padding: 7px 20px 6px 20px;
-    color:#333;
     transition: 0.2s ease-in;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
@@ -161,7 +176,7 @@
 .social-port{
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: -10px;
     padding: 10px;
 }
