@@ -317,3 +317,9 @@ a{
 .nome:hover {
     color:#348AC7;
 }
+
+@media (max-width: 800px){
+    .sidebar {
+        
+    }
+}

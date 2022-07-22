@@ -6,15 +6,16 @@
 }
 
 body {
-    background-image: url("../img/fundo.png");
-    background-repeat: no-repeat;
+    background-image: url("../img/fundo.png");  
     background-size: cover;  
 }
 
 .logo {
+    width: 100%;
     margin: auto;
     margin-top: 250px;
     display: block;
+    max-width: 800px;
 }
 
 .botoes {
@@ -90,4 +91,21 @@ body {
     background-color: #2a3e58;
     border-radius: 50%;
     font-size: 60px;
+}
+
+@media (max-width: 500px){
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        
+    }
+
+    .social{
+        margin-top: 0;
+    }
 }
