@@ -268,27 +268,3 @@
 
 }
 
-/* 
-@media (max-width: 800px){
-    .image_cabecalho {
-        margin-top: -100px;
-    }
-
-    .botoes_menu {
-        margin-left: -310px;
-        margin-top: 150px;
-        width: 50px;
-    }
-
-    .botoes_menu li {
-        list-style: none;
-        padding: 0 2px;
-    }
-
-    .botoes_menu li a {
-        text-decoration: none;
-        font-size: 16px;
-     
-    }
-
-}
