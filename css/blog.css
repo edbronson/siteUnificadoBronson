@@ -346,3 +346,23 @@ a{
         margin: auto;
     }
 }
+
+@media (max-width: 320px){
+    .index {
+        display: none;
+    }
+
+    .old__btn {
+        margin-left: 15px;
+        top: -49px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+            
+        
+    }
+}
