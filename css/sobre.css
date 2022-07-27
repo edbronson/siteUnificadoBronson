@@ -75,3 +75,10 @@ body {
     color: #348AC7;
     padding: 10px;
 }
+
+@media (max-width: 800px){
+    .img-sobre{
+        margin-left: 140px;
+        margin-top: -150px;
+    }
+}
