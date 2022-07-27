@@ -168,6 +168,23 @@
       inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
   }
 
+  .old__btn-post {
+    font-weight: 800;
+    text-shadow: none;
+    letter-spacing: 1px;
+    border: 2px solid #348AC7;
+    border-radius: 20px;
+    padding: 6px 20px 6px 20px;
+    color:#333;
+    transition: 0.2s ease-in;
+    font-size: 20px;
+}
+
+.old__btn-post:hover {
+    background-color:#348AC7;
+    color:#fff;
+}
+
   .fa-square-envelope{
     font-size: 20px;
   }
@@ -184,4 +201,44 @@
 .fa-solid:hover{
     color: #ff44e2;
     box-shadow: inset 0 0 0 3px #00bae3;
+}
+
+@media (max-width: 320px){ 
+  .titulo img {
+    margin-left: 2px;
+    width: 100%;
+  }
+
+  .fim_texto {
+    margin-left: -113px;
+  }
+  .frame {
+    left: -6px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 236px;
+  }
+
+  .boximg {
+    width: 100%;
+  }
+
+  .card__noticias {
+    margin: 10px;
+    width: 251px;
+  }
+
+  .posts__btn{
+    margin-left: 74px;
+  }
+  .old__btn-post {
+    margin-left: 71px;
+    top: -44px;
+ 
+  }
+
 }

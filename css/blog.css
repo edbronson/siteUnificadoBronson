@@ -365,4 +365,8 @@ a{
             
         
     }
+
+    .posts li a h2 {
+        font-size: 30px;
+    }
 }

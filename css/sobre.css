@@ -82,3 +82,24 @@ body {
         margin-top: -150px;
     }
 }
+
+@media (max-width: 320px){
+    .img-sobre{
+        margin-left: 58px;
+        
+    }
+
+    .box-sobre h1 {
+        font-size: 20px;
+        margin-top: 13px;
+    }
+
+    .box-sobre p {
+        font-size: 12px;
+    }
+
+    .divider__final {
+        margin: 0.6999999999999993rem 0 1em auto;
+        
+    }
+}
