@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 100%;
     background-image: url("../img/fundo.png");
     background-repeat: no-repeat;
     background-size: cover;  
@@ -76,30 +77,28 @@ body {
     padding: 10px;
 }
 
-@media (max-width: 800px){
-    .img-sobre{
-        margin-left: 140px;
-        margin-top: -150px;
-    }
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    
 }
 
-@media (max-width: 320px){
-    .img-sobre{
-        margin-left: 58px;
-        
-    }
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    
+}
 
-    .box-sobre h1 {
-        font-size: 20px;
-        margin-top: 13px;
-    }
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    
+}
 
-    .box-sobre p {
-        font-size: 12px;
-    }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
 
-    .divider__final {
-        margin: 0.6999999999999993rem 0 1em auto;
-        
-    }
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 14410px) and (max-width: 2560px) {
+    
 }

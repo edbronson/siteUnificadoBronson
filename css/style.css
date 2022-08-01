@@ -6,6 +6,7 @@
 }
 
 body {
+    width: 100%;
     background-image: url("../img/fundo.png");  
     background-size: cover;  
 }
@@ -19,6 +20,7 @@ body {
 }
 
 .botoes {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -93,23 +95,28 @@ body {
     font-size: 60px;
 }
 
-@media (max-width: 500px){
-    .logo {
-        margin-top: 63px;
-    }
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
 
-    .botoes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-        font-weight: 400;
-        letter-spacing: 2px;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-  
-    }
-    .social {
-        margin-top: -6px;
-    }
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 14410px) and (max-width: 2560px) {
     
 }
