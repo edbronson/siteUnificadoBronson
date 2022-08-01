@@ -97,26 +97,3 @@ body {
 
 /* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
-    
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-    
-}
-
-@media screen and (min-width: 376px) and (max-width: 768px) {
-    
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-    
-}
-
-@media screen and (min-width: 14410px) and (max-width: 2560px) {
-    
-}
